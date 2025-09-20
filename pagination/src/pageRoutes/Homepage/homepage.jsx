@@ -38,7 +38,6 @@ const Homepage = () => {
               ))}
         </section>
 
-        {/* Pagination */}
         <div className="flex items-center justify-center gap-4 mt-10">
           <button
             onClick={() => setPage((p) => Math.max(p - 1, 1))}
